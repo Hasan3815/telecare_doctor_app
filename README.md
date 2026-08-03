@@ -1,3 +1,4 @@
+ HEAD
 # TeleCare Doctor App
 
 A Flutter telemedicine app built for a doctor workflow: sign in, review an appointment, conduct a one-to-one video consultation, and keep session notes.
@@ -133,3 +134,7 @@ flutter test
 - Move ZEGOCLOUD credentials out of source control before distribution.
 - Add unit and widget tests for validation, providers, and key UI states.
 - Connect the custom WebRTC service to a dedicated UI only if a custom call experience is required; otherwise keep the maintained SDK path as the single call implementation.
+
+# telecare_doctor_app
+A Flutter-based doctor telehealth application for managing appointments, patient interactions, and healthcare services with a clean and scalable architecture.
+ 9fd0c30a455ac70a7ee7830d3f19afb019a0de72
