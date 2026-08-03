@@ -60,8 +60,7 @@ class NotesService {
           'note':
               note.trim(),
 
-          // Use a normal DateTime instead of
-          // FieldValue.serverTimestamp().
+         
           'createdAt':
               Timestamp.now(),
         })
