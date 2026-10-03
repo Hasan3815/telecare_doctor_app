@@ -62,7 +62,7 @@ class NotesService {
 
          
           'createdAt':
-              Timestamp.now(),
+               FieldValue.serverTimestamp(),
         })
         .timeout(
           const Duration(

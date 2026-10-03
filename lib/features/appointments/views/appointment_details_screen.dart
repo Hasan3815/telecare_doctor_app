@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:telecare_doctor_app/features/vediocalls/views/video_call_screen.dart';
 
@@ -13,6 +14,10 @@ class AppointmentDetailsScreen extends StatelessWidget {
     super.key,
   });
 
+  Future<void> callPostApi() async {
+    final response = await http.get(Uri.parse("https://jsonplaceholder.typicode.com/posts"));
+    print(response.body);
+  }
   @override
   Widget build(BuildContext context) {
     final appointment =
@@ -152,6 +157,7 @@ class AppointmentDetailsScreen extends StatelessWidget {
               const SizedBox(height: 14),
 _NotesCard(
   onTap: () {
+    callPostApi();
     final doctorId =
         FirebaseAuth.instance.currentUser?.uid ??
             'doctor_demo';
@@ -206,6 +212,7 @@ _NotesCard(
                     style:
                         ElevatedButton
                             .styleFrom(
+                              
                       backgroundColor:
                           AppColors.primary,
                       foregroundColor:
@@ -233,6 +240,7 @@ _NotesCard(
                   child:
                       OutlinedButton.icon(
                     onPressed: () {
+                      
                       _showCancelDialog(
                         context,
                       );

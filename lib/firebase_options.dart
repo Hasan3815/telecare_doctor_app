@@ -3,7 +3,6 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -40,22 +39,20 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBZMR2neTMCtJORPzzutMFj7M2JBkHsVY0',
-    appId: '1:618749503113:android:6e77a557e4adf39c4ec858',
-    messagingSenderId: '618749503113',
-    projectId: 'telecare-doctor-task-2026',
-    storageBucket: 'telecare-doctor-task-2026.firebasestorage.app',
+    apiKey: 'AIzaSyCsj9gBnkpbTFVu6A1G3A1qsTrm0gHYQvo',
+    appId: '1:793134205271:android:7da36fff29926533869612',
+    messagingSenderId: '793134205271',
+    projectId: 'telecare-app-2026-3815-76001',
+    storageBucket: 'telecare-app-2026-3815-76001.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA-AYZiT4y7pQruF0ubdtcB5cE64OcDbUI',
-    appId: '1:618749503113:ios:f37c6098b7a533114ec858',
-    messagingSenderId: '618749503113',
-    projectId: 'telecare-doctor-task-2026',
-    storageBucket: 'telecare-doctor-task-2026.firebasestorage.app',
-    iosBundleId: 'com.example.telecareDoctorApp',
+    apiKey: 'AIzaSyDOOiXuyrAkG8nfoTimuLP2dlivgqkR0Qo',
+    appId: '1:793134205271:ios:d1efb1a1662a9907869612',
+    messagingSenderId: '793134205271',
+    projectId: 'telecare-app-2026-3815-76001',
+    storageBucket: 'telecare-app-2026-3815-76001.firebasestorage.app',
+    iosBundleId: 'com.hasan.telecare.doctor',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyA-AYZiT4y7pQruF0ubdtcB5cE64OcDbUI',
     appId: '1:618749503113:ios:f37c6098b7a533114ec858',

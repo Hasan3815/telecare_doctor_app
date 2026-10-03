@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "618749503113",
-    "project_id": "telecare-doctor-task-2026",
-    "storage_bucket": "telecare-doctor-task-2026.firebasestorage.app"
+    "project_number": "793134205271",
+    "project_id": "telecare-app-2026-3815-76001",
+    "storage_bucket": "telecare-app-2026-3815-76001.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:618749503113:android:6e77a557e4adf39c4ec858",
+        "mobilesdk_app_id": "1:793134205271:android:7da36fff29926533869612",
         "android_client_info": {
-          "package_name": "com.example.telecare_doctor_app"
+          "package_name": "com.hasan.telecare.doctor"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBZMR2neTMCtJORPzzutMFj7M2JBkHsVY0"
+          "current_key": "AIzaSyCsj9gBnkpbTFVu6A1G3A1qsTrm0gHYQvo"
         }
       ],
       "services": {
